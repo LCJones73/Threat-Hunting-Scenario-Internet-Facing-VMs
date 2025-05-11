@@ -115,9 +115,8 @@ In this case you would take the following steps once you identified Brute Force 
 ____________________________________________________________________________________________________________________________
 </p><BR>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1d130215-59d9-4e38-978c-87f024ce3604" alt="Description" width="400"/>
+  <img src="https://github.com/user-attachments/assets/357dc7ff-c6d7-4d02-9200-97c028e0a2a7" alt="Description" width="400"/>
 </p>
 <p align="center">
 ____________________________________________________________________________________________________________________________
 </p>
-
