@@ -1,8 +1,13 @@
-## Threat-Hunting-Scenario-Internet-Facing-VMs
-### Misconfigured Devices are setup to be Internet Facing
+## Threat Hunting Scenario Internet Facing VMs
+
+### Welcome to CypherT3ch, a company focused on the creation and testing of cutting edge technologies
+
+#### Misconfigured Devices are setup to be Internet Facing
 
 ## 10:15 AM – Unexpected Exposure
-It’s a routine maintenance window at a busy financial services company. The infrastructure team is focused on health checks and patch verification, while the security team is assigned a proactive audit task. The mission: to review the shared services VM cluster—which includes critical systems like DNS, Domain Services, and DHCP—for any virtual machines that may have been unintentionally exposed to the public internet.
+It’s a routine maintenance window at CypherT3ch. The infrastructure team is focused on health checks and patch verification, while the security team is assigned a proactive audit task.<BR>
+
+The mission: to review the shared services VM cluster—which includes critical systems like DNS, Domain Services, and DHCP—for any virtual machines that may have been unintentionally exposed to the public internet.
 
 The security team begins by pulling configuration and firewall rules to identify any misconfigured external-facing interfaces.
 
@@ -85,7 +90,7 @@ Looking at the record above, this IP (20.75.88.220) is “InternetFacing”
 
 The DeviceName is “wnx” and after further investigation, I found that while there are 2 FailedLogonAttempts, there is no evidence of it being the target of Brute Force as that would have yielded a higher failure rate.<BR>
 
-After further investigation, I found that even though the devices were misconfigured and InternetFacing, nothing malicious had happened.
+After further investigation, I found that even though the devices were misconfigured and InternetFacing, nothing malicious had happened. Still we decided to quarantine several older VMs, which included the VN known as "wnx". We issued a new VM "Labuser" to the employee who was using "wnx". 
 
 In the real world we would check each of the 5 InternetFacing devices, but for this scenario we will assume I did and they all came back uncompromised.
 
